@@ -1,0 +1,325 @@
+.bl-background {
+    background: #DADADA;
+	width: 933px;
+	padding-top: 100px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.bl-area {
+	font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0;
+    outline: 0;
+	line-height: 1.2142em;
+    padding: .67861429em 1em;
+    font-size: 1em;
+    background: #FFF;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+    box-shadow: 0 0 0 0 transparent inset;
+    transition: color .1s ease,border-color .1s ease;
+	width: 75%;	
+}
+
+.bl-list {
+    background: white;
+	box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
+	border-radius: .28571429rem;
+}
+
+.bl-title {
+	padding: 1em;
+	background: white;
+}
+
+.bl-prod {
+	color: rgba(0,0,0,.6);
+	font-size: .64285714rem;
+	margin: 0.14285714em;
+	background-color: #E8E8E8;
+	padding: .5833em .833em;
+	border-radius: .28571429rem;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.bl-num {
+	color: rgba(0,0,0,.6);
+	font-size: .9rem;
+	margin: 0.14285714em;
+	background-color: #E8E8E8;
+	padding: .5833em .833em;
+	border-radius: .28571429rem;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.bl-prod-num {
+	min-width: 1em;
+    min-height: 1em;
+    padding: .5em!important;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 500rem;
+	background-color: #F2711C!important;
+    border-color: #F2711C!important;
+	display: inline-block;
+}
+
+
+.bl-title-1 {
+	border-top-left-radius: .28571429rem;
+	border-top-right-radius: .28571429rem;
+}
+
+.bl-remaining {
+	padding: 1em;
+	border-top: 1px solid rgba(34,36,38,.15);
+	border-bottom: 1px solid rgba(34,36,38,.15);
+	background: white;
+}
+
+.bl-bought {
+    background: white;
+	padding: 1rem;
+    vertical-align: top;
+	box-sizing: inherit;
+	border-radius: .28571429rem;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: 1px solid rgba(34,36,38,.15);
+}
+
+.bl-product {
+	display: inline-block;
+	width: 30%;
+}
+
+.bl-count {
+	display: inline-block;
+	padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+}
+
+.bl-del {
+	display: inline-block;
+	padding-left: 6em;
+}
+
+.bl-buttons {
+	padding: 0.65em 1em 0.85em;
+	line-height: 1em;
+	border-radius: .4em;
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+	background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+	box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset, 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+}
+
+.bl-button-search {
+	padding: 0.65em 1em 0.85em;
+	line-height: 1em;
+	border-radius: .4em;
+	cursor: pointer;
+	display: inline-block;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: none;
+	background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+	box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset, 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+	background-color: #2185D0;
+    color: #FFF;
+	width: 25%;
+}
+
+.bl-delbut {
+	background: red;
+}
+
+.bl-row {
+	border-top: 1px solid rgba(34,36,38,.15);
+	padding: 1em;
+	box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.08);
+
+}
+
+.bl-search {
+	padding: 1em;
+	display: flex;
+	font-weight: 400;
+	background: white;
+	border-top-left-radius: .28571429rem;
+	border-top-right-radius: .28571429rem;
+}
+
+.input {
+    line-height: 1.2142em;
+    padding: .67861429em 1em;
+    font-size: 1em;
+    background: #FFF;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 0 transparent inset;
+    transition: color .1s ease,border-color .1s ease;
+}
+.bl-left {
+	padding: 1em;
+	display: inline-block;
+	width: 60%!important;
+	position: relative;
+    vertical-align: top;
+	box-sizing: inherit;
+}
+
+.bl-right {
+	padding: 1em;
+	display: inline-block;
+	width: 30%!important;
+	position: relative;
+    vertical-align: top;
+	box-sizing: inherit;
+    vertical-align: top;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Кнопки*/
+.bl-label {
+    background: #cdcbcb;
+}
+.bl-plus {
+    background: #21BA45;
+	min-width: 2.5em;
+    min-height: 2.5em;
+    padding: .5em!important;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 500rem;
+	background-color: #21BA45;
+    border-color: #21BA45;
+	display: inline-block;
+}
+.bl-minus {
+    background: #DB2828;
+	min-width: 2.5em;
+    min-height: 2.5em;
+    padding: .5em!important;
+    line-height: 1em;
+    text-align: center;
+    border-radius: 500rem;
+	background-color: #DB2828;
+    border-color: #DB2828;
+	display: inline-block;
+}
+
+body {
+    background-color: #DADADA;
+}
+
+[data-tooltip] {
+    position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+[data-tooltip]::after 
+{
+    content: attr(data-tooltip);
+    position: absolute;
+	left: 20px;
+	bottom: 0;
+    background: purple;
+    color: #fff;
+    padding: 0.5em;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+	border-radius: .28571429rem;
+} 
+
+[data-tooltip]:hover::after 
+{
+    opacity: 1;
+    bottom: 2em;
+}
+   
+.bl-badge {
+	position: fixed;
+	left: 200px;
+	bottom: -60px;
+	/*height: 50px;*/
+	width: 95px;
+	background: purple;
+	border-top-left-radius: .28571429rem;
+	border-top-right-radius: .28571429rem;
+	color: white;
+	font-size: 16pt;
+	font-weight: 700;
+	text-align: center;
+	padding: 17px 0px; 
+	transition: 0.5s;
+	z-index: 3;
+}
+
+.bl-badge-bottom {
+	font-size: 9pt;
+	padding: 10pt;
+	padding-bottom: 0pt;
+}
+
+.bl-badge:hover {
+	background: blue;
+	bottom: 0px;
+}
+
+@media print {
+	.bl-badge {
+		background: none;
+		border: solid 2px purple;
+		color: black;
+		bottom:0px;
+	}
+	
+	.bl-not-print {
+		 display: none;
+		 padding: 0px;
+	}
+	
+	.bl-badge-bottom {
+		padding:0px;
+	}
+}
+
+@media	(max-width:	600px)	{
+	.bl-left {
+		display: block;
+	}
+	
+	.bl-right {
+		display: block;
+	}
+	
+}
+
+/*@media	(max-width:	1000px)	{
+	.bl-background {
+		width: 750px;
+	}
+	
+}
+
+@media	(max-width:	800px)	{
+	.bl-background {
+		width: 450px;
+	}
+	
+}*/
