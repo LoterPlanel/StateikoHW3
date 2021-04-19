@@ -1,3 +1,7 @@
+*:focus {
+	outline: none;
+}
+
 .bl-background {
     background: #DADADA;
 	width: 933px;
@@ -81,7 +85,7 @@
 	background: white;
 }
 
-.bl-bought {
+.bl-cart-bought {
     background: white;
 	padding: 1rem;
     vertical-align: top;
@@ -218,6 +222,11 @@ html {
 	background-color: #DB2828;
     border-color: #DB2828;
 	display: inline-block;
+}
+
+.bl-minus:disabled {
+	background-color: #d34040;
+	border-color: #d34040;
 }
 
 body {
